@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.10
+#!/usr/bin/env bash
 
 # This gets the directory the script is run from so pathing can work relative to the script where needed.
 SCRIPT_DIR=$(cd -- "$(dirname -- "$0")" && pwd)
