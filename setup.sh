@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env python3.10
 
 # This file will be the host environment setup file for all operating systems other than base Windows.
 
