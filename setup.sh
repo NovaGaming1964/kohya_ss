@@ -86,7 +86,7 @@ VERBOSITY=2    #Start counting at 2 so that any increase to this will result in 
 MAXVERBOSITY=6 #The highest verbosity we use / allow to be displayed.  Feel free to adjust.
 
 BRANCH="master"
-GIT_REPO="https://github.com/bmaltais/kohya_ss.git"
+GIT_REPO="https://github.com/NovaGaming1964/kohya_ss.git"
 INTERACTIVE=false
 PUBLIC=false
 SKIP_SPACE_CHECK=false
