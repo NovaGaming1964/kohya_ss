@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.10
+#!/usr/bin/env bash
 
 # This file will be the host environment setup file for all operating systems other than base Windows.
 
@@ -220,7 +220,7 @@ install_python_dependencies() {
   echo "Switching to virtual Python environment."
   if ! inDocker; then
     if command -v python3 >/dev/null; then
-      python3 -m venv "$DIR/venv"
+      python3.10 -m venv "$DIR/venv"
     elif command -v python3.10 >/dev/null; then
       python3.10 -m venv "$DIR/venv"
     else
